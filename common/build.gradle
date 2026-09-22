@@ -1,0 +1,10 @@
+dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.architectury.minecraft}"
+    // fabric-loader on the compile classpath for @Environment/@EnvType annotations only.
+    // Do NOT use any other fabric-loader classes from common code.
+    compileOnly "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+}
+
+architectury {
+    common("fabric", "neoforge")
+}

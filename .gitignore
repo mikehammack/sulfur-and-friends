@@ -1,0 +1,7 @@
+.gradle/
+build/
+out/
+*.class
+libs/
+curseforge/
+logs/

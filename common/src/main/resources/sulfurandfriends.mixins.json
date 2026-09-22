@@ -1,0 +1,1 @@
+{"client":[],"compatibilityLevel":"JAVA_25","injectors":{"defaultRequire":1},"mixins":["SulfurCubePersistenceMixin","PotentSulfurGeyserWarningMixin"],"package":"com.maximarcana.sulfurfriends.mixin","required":true,"server":[]}

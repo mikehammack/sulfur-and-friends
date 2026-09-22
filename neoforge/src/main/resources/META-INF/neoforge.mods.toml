@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[12,)"
+license="MIT"
+
+[[mods]]
+modId="sulfurandfriends"
+version="${version}"
+displayName="Sulfur & Friends"
+authors="Maxim Arcana"
+description='''Micro-QoL for the Chaos Cubed drop: geyser eruption warnings, bucket archetype tooltips, cube persistence, and an in-game archetype field guide.'''
+
+[[dependencies.sulfurandfriends]]
+modId="neoforge"
+type="required"
+versionRange="[26.3.0.3-beta,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.sulfurandfriends]]
+modId="minecraft"
+type="required"
+versionRange="[26.3,27)"
+ordering="NONE"
+side="BOTH"
+
+[[mixins.sulfurandfriends]]
+config="sulfurandfriends.mixins.json"
